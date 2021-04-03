@@ -1,0 +1,20 @@
+PerspectiveCamera {
+	center 8.22 -0.61 -9.80
+	direction -0.706 -0.092 0.703
+	up -0.065  0.996  0.065
+	angle 60
+}
+
+Lights {
+	numLights 1
+	Skybox {
+	environment_day.hdr
+	R 1000
+	}
+}
+Group {
+	numObjects 1
+	TriangleMesh {
+		obj_file car.obj
+	}
+}

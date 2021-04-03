@@ -1,0 +1,20 @@
+PerspectiveCamera {
+	center 0 12.72 31.85
+	direction 0 -0.156 -0.985
+	up 0 0.985 -0.174
+	angle 45
+}
+
+Lights {
+	numLights 1
+	Skybox {
+	environment.hdr
+	R 1000
+	}
+}
+Group {
+	numObjects 1
+	TriangleMesh {
+		obj_file diningroom.obj
+	}
+}

@@ -1,0 +1,21 @@
+PerspectiveCamera {
+	center 0 0 2.5
+	direction 0 0 -2.5
+	up 0 1 0
+	angle 60
+}
+
+Lights {
+	numLights 1
+	Skybox {
+	environment.hdr
+	R 1000
+	}
+}
+
+Group {		
+		numObjects 1
+		TriangleMesh {
+		obj_file cornellbox.obj
+	}
+}

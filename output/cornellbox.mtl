@@ -1,0 +1,30 @@
+# for_cook
+newmtl cornellbox_0_material
+Kd 1 1 1
+Mentalness 0.01
+Roughness 0.95
+Ns 1
+newmtl cornellbox_1_material
+Kd 0 1 0
+Mentalness 0.01
+Roughness 0.95
+newmtl cornellbox_2_material
+Kd 1 0 0
+Mentalness 0.01
+Roughness 0.95
+Ns 1
+newmtl cornellbox_light
+Kd 0.0 0.0 0.0
+Le 10 10 10
+Ks 0 0 0
+Ns 1
+newmtl cornellbox_4_material
+Kd  1 1 1
+Mentalness 0.5
+Roughness 0.3
+Ns 120
+newmtl cornellbox_5_material
+Kd 1 1 1
+Mentalness 0.2
+Roughness 0.3
+Ns 25

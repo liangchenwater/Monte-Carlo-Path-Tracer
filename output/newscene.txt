@@ -1,0 +1,47 @@
+PerspectiveCamera {
+	center 0 0 2.5
+	direction 0 0 -2.5
+	up 0 1 0
+	angle 60
+}
+
+Lights {
+	numLights 1
+	Skybox {
+	environment.hdr
+	R 1000
+	}
+}
+
+Group {	
+	numObjects 6
+		TriangleMesh {
+		obj_file newscene.obj
+	}
+
+Sphere {
+		center 0.5 0.5 0.5
+		radius 0.15
+		mtl cornellbox_6_material
+	}
+	Sphere {
+		center -0.3 0.3 0.5
+		radius 0.15
+		mtl cornellbox_7_material
+	}
+	Sphere {
+		center 0.2 0.4 -0.5
+		radius 0.1
+		mtl cornellbox_8_material
+	}
+	Sphere {
+		center -0.2 -0.4 0.9
+		radius 0.16
+		mtl cornellbox_6_material
+	}
+	Sphere {
+		center -0.6 -0.2 0.1
+		radius 0.18
+		mtl cornellbox_9_material
+	}
+}
